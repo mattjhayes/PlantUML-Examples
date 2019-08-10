@@ -1,6 +1,8 @@
 # Styles
 
-##### Table of Contents
+* [Home](../README.md)
+
+## Contents
 [Default](#default)<br>
 [Monochrome](#monochrome)<br>
 [Reverse Monochrome](#reverse_monochrome)<br>
