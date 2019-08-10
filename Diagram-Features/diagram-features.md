@@ -7,6 +7,8 @@
 [Header](#header)<br>
 [Footer](#footer)<br>
 [Note](#note)<br>
+[Caption](#caption)<br>
+[Legend](#legend)<br>
 
 <a name="title"/>
 
@@ -67,3 +69,36 @@ n1 -left- u1
 ```
 
 ![Note](note.png)
+
+<a name="caption"/>
+
+## Caption
+
+Add caption to your diagram
+
+```plantuml
+@startuml
+() " " as u1
+caption Figure 1
+@enduml
+```
+
+![Caption](caption.png)
+
+<a name="legend"/>
+
+## Legend
+
+Add legend to your diagram
+
+```plantuml
+@startuml
+() " " as u1
+legend right
+  Enter legend
+  info here
+endlegend
+@enduml
+```
+
+![Legend](legend.png)
