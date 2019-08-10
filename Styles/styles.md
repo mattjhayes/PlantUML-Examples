@@ -1,11 +1,11 @@
 # Styles
 
-##### Table of Contents  
-[Default](#default)  
-[Monochrome](#monochrome) 
-[Reverse Monochrome](#reverse_monochrome)
-[Handwritten](#handwritten)
-[Monochrome Handwritten](#monochrome_handwritten)
+##### Table of Contents
+[Default](#default)<br>
+[Monochrome](#monochrome)<br>
+[Reverse Monochrome](#reverse_monochrome)<br>
+[Handwritten](#handwritten)<br>
+[Monochrome Handwritten](#monochrome_handwritten)<br>
 
 <a name="default"/>
 ## Default
@@ -41,6 +41,7 @@ u1 - u3
 
 <a name="reverse_monochrome"/>
 ## Reverse Monochrome
+
 ```plantuml
 @startuml
 ' Reverse monochrome style:
@@ -52,11 +53,13 @@ u1 -- u2
 u1 - u3
 @enduml
 ```
+
 ![Diagram layout without hidden lines](reverse-monochrome.png)
 
 <a name="handwritten"/>
 ## Handwritten
 Note: can combine handwritten with other styles such as monochrome
+
 ```plantuml
 @startuml
 ' Handwritten style:
@@ -68,10 +71,12 @@ u1 -- u2
 u1 - u3
 @enduml
 ```
+
 ![Diagram layout without hidden lines](handwritten.png)
 
 <a name="monochrome_handwritten"/>
 ## Monochrome Handwritten
+
 ```plantuml
 @startuml
 ' Monochrome Handwritten style:
@@ -84,4 +89,5 @@ u1 -- u2
 u1 - u3
 @enduml
 ```
+
 ![Diagram layout without hidden lines](monochrome-handwritten.png)
