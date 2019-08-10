@@ -1,5 +1,7 @@
 # Hidden Lines
 
+[<-Home](../README.md)
+
 Use hidden lines as a work-around to give hints to PlantUML as to how to lay out the diagram
 
 ## Example without Hidden Lines
