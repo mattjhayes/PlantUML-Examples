@@ -17,7 +17,10 @@
 ```plantuml
 @startuml
 title This is a Title
-() " " as u1
+rectangle {
+    () " " as u1
+    component foo
+}
 @enduml
 ```
 
