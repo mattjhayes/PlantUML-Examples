@@ -33,7 +33,10 @@ header
 <font color=red>Notice:</font>
 This is a header
 endheader
-() " " as u1
+rectangle {
+    () " " as u1
+    component foo
+}
 @enduml
 ```
 
@@ -45,7 +48,10 @@ endheader
 
 ```plantuml
 @startuml
-() " " as u1
+rectangle {
+    () " " as u1
+    component foo
+}
 center footer This is an example footer
 @enduml
 ```
@@ -78,7 +84,10 @@ Add caption to your diagram
 
 ```plantuml
 @startuml
-() " " as u1
+rectangle {
+    () " " as u1
+    component foo
+}
 caption Figure 1
 @enduml
 ```

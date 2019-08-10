@@ -21,6 +21,9 @@ How to apply styles to the diagram
 
 * [Styles](Styles/styles.md)
 
+Formatting with Creole (font size colour etc.):
+see: http://plantuml.com/creole
+
 TBD - scale diagram with zoom.
 see: http://plantuml.com/commons 
 
