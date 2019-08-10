@@ -4,6 +4,9 @@
 
 ## Contents
 [Component](#component)<br>
+[Interface](#interface)<br>
+[Rectangle](#rectangle)<br>
+[Actor](#actor)<br>
 
 <a name="component"/>
 
@@ -40,6 +43,20 @@ rectangle "This is a Rectangle"
 ```
 
 ![Rectangle](rectangle.png)
+
+Rectangles can group other objects:
+
+```plantuml
+@startuml
+rectangle "This is a Rectangle with things in it" {
+    () " " as o1
+    () " " as o2
+    :Actor:
+    [Component]
+}
+@enduml
+```
+![Rectangle](rectangle2.png)
 
 <a name="actor"/>
 
