@@ -21,6 +21,9 @@ How to apply styles to the diagram
 
 * [Styles](Styles/styles.md)
 
+TBD - scale diagram with zoom.
+see: http://plantuml.com/commons 
+
 ## Diagram Features
 
 Headers, footers, legends etc.
