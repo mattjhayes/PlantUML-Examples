@@ -9,6 +9,7 @@
 
 <a name="default"/>
 ## Default
+
 ```plantuml
 @startuml
 ' Default style
@@ -19,10 +20,12 @@ u1 -- u2
 u1 - u3
 @enduml
 ```
+
 ![Diagram layout without hidden lines](default.png)
 
 <a name="monochrome"/>
 ## Monochrome
+
 ```plantuml
 @startuml
 ' Monochrome style:
