@@ -9,7 +9,7 @@ THIS REPO IS UNDER CONSTRUCTION, CHECK BACK LATER
 
 ## Lines
 
-* [Objects](Lines/lines.md)
+* [Lines](Lines/lines.md)
 
 ## Aesthetics
 
