@@ -2,7 +2,7 @@
 
 Use hidden lines as a work-around to give hints to PlantUML as to how to lay out the diagram
 
-## Without Hidden Lines
+## Example without Hidden Lines
 
 ```plantuml
 @startuml
@@ -23,7 +23,7 @@ myComponent - myComponent4
 
 ![Diagram layout without hidden lines](no-hidden-lines.png)
 
-## With Hidden Lines to align components 2 & 4
+## Example with Hidden Lines to align components 2 & 4
 
 ```plantuml
 @startuml

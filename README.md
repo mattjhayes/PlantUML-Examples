@@ -5,7 +5,7 @@ THIS REPO IS UNDER CONSTRUCTION, CHECK BACK LATER
 
 ## Layout Techniques
 
-* [Hidden Links](Layout-Techniques/hidden-lines.md)
+* [Hidden Lines](Layout-Techniques/hidden-lines.md)
 
 
 ## Useful Links
