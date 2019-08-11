@@ -27,6 +27,7 @@ Different types of line
 How to apply styles to the diagram
 
 * [Styles](Styles/styles.md)
+* [Colors](Styles/colors.md)
 
 Formatting with Creole (font size colour etc.):
 see: http://plantuml.com/creole
@@ -53,3 +54,5 @@ Headers, footers, legends etc.
 https://github.com/joelparkerhenderson/demo_plantuml 
 
 https://real-world-plantuml.com/
+
+https://plantuml-documentation.readthedocs.io/en/latest/
