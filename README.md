@@ -3,6 +3,12 @@ Examples of PlantUML code to generate 'Diagrams as Code'
 
 THIS REPO IS UNDER CONSTRUCTION, CHECK BACK LATER
 
+## Diagram Types
+
+PlantUML has multiple types of diagram, however rather than explicitly specifying the type in code, it is implied by the choice of the first unique object specified... Click the link below for more on this, including the built-in diagram types:
+
+* [Diagram Types](Diagram-Types/diagram-types.md)
+
 ## Objects
 
 Different types of object, including actors, components, interfaces, rectangles etc.
