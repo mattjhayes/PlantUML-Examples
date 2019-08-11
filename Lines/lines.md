@@ -6,6 +6,7 @@
 [Vertical Line](#vertical_line)<br>
 [Vertical Dashed Line](#vertical_dashed_line)<br>
 [Horizontal Line](#horizontal_line)<br>
+[Line Color](#line_color)<br>
 
 <a name="vertical_line"/>
 
@@ -43,7 +44,6 @@ u2 -[dashed]- u3
 
 <a name="horizontal_line"/>
 
-
 ## Horizontal Line
 
 Single dash
@@ -57,3 +57,25 @@ u1 - u2
 ```
 
 ![Horizontal Line](horizontal-line.png)
+
+<a name="line_color"/>
+
+## Line Color
+
+Specify line color in square brackets in the line characters:
+
+```plantuml
+@startuml
+skinparam interface {
+	BorderColor black
+	BackgroundColor white
+}
+() " " as u1
+() " " as u2
+u1 -[#blue] u2
+u1 -[#green]-> u2
+u1 <-[#mediumvioletred]-> u2
+@enduml
+```
+
+![Line Color](line-color.png)
