@@ -7,6 +7,7 @@
 [Interface](#interface)<br>
 [Rectangle](#rectangle)<br>
 [Actor](#actor)<br>
+[Artifact](#artifact)<br>
 
 <a name="component"/>
 
@@ -72,5 +73,18 @@ Note that if you use keyword 'actor', it will assume format of a sequence diagra
 
 ![Actor](actor.png)
 
+<a name="artifact"/>
+
+## Artifact
+
+An artifact in UML is generally a file
+
+```plantuml
+@startuml
+artifact "config.json"
+@enduml
+```
+
+![Actor](artifact.png)
 
 

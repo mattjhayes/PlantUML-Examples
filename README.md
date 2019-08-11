@@ -8,6 +8,7 @@ THIS REPO IS UNDER CONSTRUCTION, CHECK BACK LATER
 Different types of object, including actors, components, interfaces, rectangles etc.
 
 * [Objects](Objects/objects.md)
+* Icons. See https://mrhaki.blogspot.com/2017/10/plantuml-pleasantness-using-built-in.html
 
 ## Lines
 
