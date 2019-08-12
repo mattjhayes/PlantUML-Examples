@@ -6,10 +6,13 @@ PlantUML auto-detects the diagram type based on the first unique item in the cod
 
 ## Contents
 [Sequence Diagram](#sequence-diagram)<br>
-
-<a name="sequence-diagram"/>
+[Use Case Diagram](#use-case-diagram)<br>
+[Class Diagram](#class-diagram)<br>
+[Activity Diagram](#activity-diagram)<br>
 
 UNDER CONSTRUCTION
+
+<a name="sequence-diagram"/>
 
 ## Sequence Diagram
 
@@ -54,4 +57,32 @@ Control -> Entity: Hey
 
 The order that that participants is declared determines their order left to right in the diagram, and the order of the events is the order top to bottom
 
+<a name="use-case-diagram"/>
+
+## Use Case Diagram
+
+TBD
+
+Auto detect use case diagram type by TBD
+
+<a name="class-diagram"/>
+
+## Class Diagram
+
+TBD
+
+Auto detect class diagram type by use of line type:
+* <|--
+* *--
+* o--
+* ..
+* --
+
+<a name="activity-diagram"/>
+
+## Activity Diagram
+
+TBD
+
+Auto detect activity diagram type by lines that start with : and end with ;
 
