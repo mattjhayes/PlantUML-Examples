@@ -79,3 +79,25 @@ u1 <-[#mediumvioletred]-> u2
 ```
 
 ![Line Color](line-color.png)
+
+To change line color for *all* lines, use *skinparam ArrowColor*:
+
+```plantuml
+@startuml
+skinparam interface {
+	BorderColor black
+	BackgroundColor white
+}
+
+' Use this to set color on all lines:
+skinparam ArrowColor blue
+
+() " " as u1
+() " " as u2
+u1 - u2
+u1 --> u2
+u1 <--> u2
+@enduml
+```
+
+![Line Color](line-color-change-default.png)
