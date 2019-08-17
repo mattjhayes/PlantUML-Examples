@@ -1,0 +1,35 @@
+@startuml
+
+title Diagrams as Code
+
+skinparam shadowing false
+skinparam actor {
+	BorderColor black
+	BackgroundColor white
+}
+skinparam artifact {
+	BorderColor black
+	BackgroundColor #94de5e
+}
+skinparam ArrowColor black
+
+rectangle "Diagramming Tool" as tool {
+    artifact "diagram code" as code #darkkhaki
+}
+artifact "diagram" as diagram
+
+actor creator
+actor audience
+
+creator -> code : " code "
+code --> diagram : " render "
+creator -> diagram : "view "
+audience -> diagram : " view "
+
+legend right
+    <size:18>Key</size>
+    |<#darkkhaki> Code |
+    |<#94de5e> Diagram |
+endlegend
+
+@enduml

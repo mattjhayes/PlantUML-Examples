@@ -1,0 +1,33 @@
+@startuml
+
+title Sequence Diagram Example
+
+skinparam shadowing false
+skinparam actor {
+	BorderColor black
+	BackgroundColor white
+}
+skinparam participant {
+	BorderColor black
+	BackgroundColor #94de5e
+}
+skinparam sequence {
+    LifeLineBorderColor black
+}
+skinparam ArrowColor black
+skinparam noteBorderColor black
+
+actor Actor
+participant "Web Server" as web
+participant "App Server" as app
+participant "Database" as db
+
+Actor -> web: GET participants.html
+web -> app: GET participants.html
+app -> db: SELECT * FROM participants
+note right: Note: check SQL syntax\nwith DBAs
+db -> app: return participant records
+app -> web: return participants.html
+web -> Actor: return participants.html
+
+@enduml

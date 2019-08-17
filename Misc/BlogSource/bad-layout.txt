@@ -1,0 +1,16 @@
+@startuml
+skinparam shadowing false
+skinparam handwritten true
+title Bad Layout
+skinparam interface {
+	BorderColor black
+	BackgroundColor technology
+}
+skinparam artifact {
+	BorderColor black
+	BackgroundColor lightskyblue
+}
+() "Alice" as Alice
+() "Bob" as Bob
+Alice -[#black]-> Bob
+@enduml

@@ -1,0 +1,37 @@
+@startuml
+skinparam shadowing false
+
+title Reverse Engineering
+
+skinparam actor {
+	BorderColor black
+	BackgroundColor white
+}
+skinparam artifact {
+	BorderColor black
+	BackgroundColor #94de5e
+}
+skinparam ArrowColor black
+
+artifact "Software Project" as SP2 #darkkhaki
+actor dev
+rectangle "Diagramming\nTool" as tool {
+    artifact "diagram code" as diagcode #darkkhaki
+}
+rectangle "Redocumentation\nSystem" as redoc {
+    artifact "redoc code" as redoc_code #darkkhaki 
+}
+artifact "diagram" as diagram
+' Draw lines:
+SP2 -> redoc_code
+redoc_code -> diagcode
+diagcode --> diagram : " render "
+dev --> diagram : " view "
+
+legend 
+    <size:18>Key</size>
+    |<#darkkhaki> Code |
+    |<#94de5e> Diagram |
+endlegend
+
+@enduml

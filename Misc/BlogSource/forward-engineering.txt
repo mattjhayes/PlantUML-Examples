@@ -1,0 +1,45 @@
+@startuml
+skinparam shadowing false
+
+title Forward Engineering
+
+skinparam actor {
+	BorderColor black
+	BackgroundColor white
+}
+skinparam artifact {
+	BorderColor black
+	BackgroundColor #94de5e
+}
+skinparam ArrowColor black
+
+rectangle "Diagramming Tool" as tool {
+    artifact "diagram code" as code #darkkhaki
+}
+rectangle "Code Generator Tool" as tool2 {
+    artifact "skeleton code" as skelcode #darkkhaki
+}
+
+artifact "diagram" as diagram
+artifact "software project" as softproj #darkkhaki
+
+actor creator
+actor audience
+actor dev
+
+creator -> code : " code "
+code --> diagram : " render "
+creator -> diagram : "view "
+audience -> diagram : " view "
+creator -[hidden]-> audience
+code -> skelcode : " code . "
+skelcode --> dev
+dev --> softproj : " code "
+
+legend left
+    <size:18>Key</size>
+    |<#darkkhaki> Code |
+    |<#94de5e> Diagram |
+endlegend
+
+@enduml
