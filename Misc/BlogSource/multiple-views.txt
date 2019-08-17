@@ -1,0 +1,57 @@
+@startuml
+
+title Multiple Views of the Same System
+
+skinparam shadowing false
+' skinparam handwritten true
+skinparam CloudFontSize 28
+skinparam actor {
+	BorderColor black
+	BackgroundColor white
+}
+skinparam rectangle {
+	BorderColor black
+	BackgroundColor #5e94de
+	fontSize 32
+}
+skinparam artifact {
+	BorderColor black
+	BackgroundColor #94de5e
+}
+skinparam ArrowColor black
+
+together {
+    rectangle System
+    artifact "High-Level Overview" as HL
+}
+artifact "Information View" as InfoView
+artifact "Infrastructure View" as InfraView
+artifact "Customer View" as CustomerView
+
+actor "Information Architect" as InfoArchitect
+actor "Solution Architect" as SolutionArchitect
+actor "Product Owner" as ProductOwner
+actor DBA
+actor "Enterprise Architect" as EA
+
+System -> HL
+HL -> EA
+System --> InfoView
+System --> InfraView
+System --> CustomerView
+HL --> SolutionArchitect
+HL --> ProductOwner
+InfoView --> InfoArchitect
+InfoView --> DBA
+InfoView --> SolutionArchitect
+InfraView --> SolutionArchitect
+CustomerView --> ProductOwner
+CustomerView --> SolutionArchitect
+
+legend 
+    <size:18>Key</size>
+    |<#5e94de> Technology |
+    |<#94de5e> Diagram |
+endlegend
+
+@enduml
