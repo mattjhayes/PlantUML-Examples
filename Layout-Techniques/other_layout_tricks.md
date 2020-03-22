@@ -2,11 +2,11 @@
 
 [<-Home](../README.md)
 
-Use hidden lines as a work-around to give hints to PlantUML as to how to lay out the diagram
+Here are some other tricks for fixing layout issues that may help.
 
 ## Change Component Order
 
-This isn't working, Class 1 should be on left:
+Let's assume we want Class 1 on the left. We used the 'right' tag, however this isn't working:
 
 ```plantuml
 @startuml
@@ -29,6 +29,8 @@ fx1 -right-> fx2
 
 @enduml
 ```
+
+![wrong_way_around](wrong_way_around.png)
 
 A fix is to reverse the order of the components in the code:
 
@@ -53,3 +55,5 @@ fx1 <-left- fx2
 
 @enduml
 ```
+
+![wrong_order](reversed_order.png)
