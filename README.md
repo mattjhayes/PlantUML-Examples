@@ -44,6 +44,7 @@ Headers, footers, legends etc.
 ## Layout Techniques
 
 * [Hidden Lines](Layout-Techniques/hidden-lines.md)
+* [Other Layout Tricks](Layout-Techniques/other_layout_tricks.md)
 
 ## Code Techniques
 
