@@ -20,7 +20,7 @@ Different types of object, including actors, components, interfaces, rectangles 
 
 Different types of line
 
-* [Lines](Lines/lines.md)
+* [Lines](Lines/README.md)
 
 ## Aesthetics
 
