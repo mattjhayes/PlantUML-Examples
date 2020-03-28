@@ -57,3 +57,22 @@ Apples -right-> Pears
 ```
 
 ![wrong_order](reversed_order.png)
+
+## Left to Right
+
+TBD
+
+```plantuml@startuml
+left to right direction
+```
+
+## Together
+
+TBD
+
+```plantuml@startuml
+together {
+    rectangle "Box 1" as box_1
+    rectangle "Box 2" as box_2
+}
+```

@@ -7,6 +7,7 @@
 [Vertical Dashed Line](#vertical_dashed_line)<br>
 [Horizontal Line](#horizontal_line)<br>
 [Line Color](#line_color)<br>
+[Line Notes](#line_notes)<br>
 
 <a name="vertical_line"/>
 
@@ -100,4 +101,27 @@ u1 <--> u2
 @enduml
 ```
 
-![Line Color](line-color-change-default.png)
+![Line Color all Lines](line-color-change-default.png)
+
+<a name="line_notes"/>
+
+## Line Notes
+
+Add note for line after a colon:
+
+```plantuml
+@startuml
+skinparam interface {
+	BorderColor black
+	BackgroundColor white
+}
+() " " as u1
+() " " as u2
+() " " as u3
+u1 -[#blue] u2 : Blue Line
+u2 -[#green]-> u3 : Green Line
+u3 <-[#red]-> u1 : Red Line
+@enduml
+```
+
+![Line Color](line-notes.png)
