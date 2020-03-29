@@ -13,13 +13,19 @@
 
 ## Vertical Line
 
-Double dash
+Double dash, or use up or down keywords
 
 ```plantuml
 @startuml
 () " " as u1
 () " " as u2
+() " " as u3
+() " " as u4
+() " " as u5
+() " " as u6
 u1 -- u2
+u3 -down- u4
+u5 -up- u6
 @enduml
 ```
 
@@ -47,13 +53,19 @@ u2 -[dashed]- u3
 
 ## Horizontal Line
 
-Single dash
+Single dash, or use left or right keywords
 
 ```plantuml
 @startuml
 () " " as u1
 () " " as u2
+() " " as u3
+() " " as u4
+() " " as u5
+() " " as u6
 u1 - u2
+u3 -left- u4
+u5 -right- u6
 @enduml
 ```
 
