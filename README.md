@@ -13,7 +13,7 @@ PlantUML has multiple types of diagram, however rather than explicitly specifyin
 
 Different types of object, including actors, components, interfaces, rectangles etc.
 
-* [Objects](Objects/objects.md)
+* [Objects](Objects/README.md)
 * Icons. See https://mrhaki.blogspot.com/2017/10/plantuml-pleasantness-using-built-in.html
 
 ## Lines
@@ -39,7 +39,7 @@ see: http://plantuml.com/commons
 
 Headers, footers, legends etc.
 
-* [Diagram Features](Diagram-Features/diagram-features.md)
+* [Diagram Features](Diagram-Features/README.md)
 
 ## Layout Techniques
 

@@ -73,6 +73,19 @@ Note that if you use keyword 'actor', it will assume format of a sequence diagra
 
 ![Actor](actor.png)
 
+Can change colour etc with skinparams:
+
+```plantuml
+@startuml
+skinparam ActorBorderColor black
+skinparam ActorBackgroundColor white
+:"Alice":
+actor "Bob"
+@enduml
+```
+
+![Actor](actor2.png)
+
 <a name="artifact"/>
 
 ## Artifact
