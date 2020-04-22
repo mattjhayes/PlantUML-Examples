@@ -1,6 +1,6 @@
 # Colors
 
-[<-Home](../README.md)
+[<-Home](../../README.md)
 
 List the colors with:
 

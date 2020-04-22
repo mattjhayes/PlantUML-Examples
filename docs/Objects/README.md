@@ -1,6 +1,6 @@
 # Objects
 
-[<-Home](../README.md)
+[<-Home](../../README.md)
 
 ## Contents
 [Component](#component)<br>

@@ -1,6 +1,6 @@
 # Lines
 
-[<-Home](../README.md)
+[<-Home](../../README.md)
 
 ## Contents
 [Vertical Line](#vertical_line)<br>

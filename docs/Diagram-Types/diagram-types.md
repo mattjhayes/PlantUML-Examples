@@ -1,6 +1,6 @@
 # Diagram Types
 
-[<-Home](../README.md)
+[<-Home](../../README.md)
 
 PlantUML auto-detects the diagram type based on the first unique item in the code
 

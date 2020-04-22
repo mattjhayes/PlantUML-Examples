@@ -1,6 +1,6 @@
 # Styles
 
-[<-Home](../README.md)
+[<-Home](../../README.md)
 
 ## Contents
 [Default](#default)<br>

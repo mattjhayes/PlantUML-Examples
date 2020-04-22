@@ -1,6 +1,6 @@
 # Diagram Features
 
-[<-Home](../README.md)
+[<-Home](../../README.md)
 
 ## Contents
 [Title](#title)<br>

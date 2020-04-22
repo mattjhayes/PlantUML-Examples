@@ -1,6 +1,6 @@
 # Other Layout Tricks
 
-[<-Home](../README.md)
+[<-Home](../../README.md)
 
 Here are some other tricks for fixing layout issues that may help.
 

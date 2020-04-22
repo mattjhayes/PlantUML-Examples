@@ -7,27 +7,27 @@ THIS REPO IS UNDER CONSTRUCTION, CHECK BACK LATER
 
 PlantUML has multiple types of diagram, however rather than explicitly specifying the type in code, it is implied by the choice of the first unique object specified... Click the link below for more on this, including the built-in diagram types:
 
-* [Diagram Types](Diagram-Types/diagram-types.md)
+* [Diagram Types](docs/Diagram-Types/diagram-types.md)
 
 ## Objects
 
 Different types of object, including actors, components, interfaces, rectangles etc.
 
-* [Objects](Objects/README.md)
+* [Objects](docs/Objects/README.md)
 * Icons. See https://mrhaki.blogspot.com/2017/10/plantuml-pleasantness-using-built-in.html
 
 ## Lines
 
 Different types of line
 
-* [Lines](Lines/README.md)
+* [Lines](docs/Lines/README.md)
 
 ## Aesthetics
 
 How to apply styles to the diagram
 
-* [Styles](Styles/styles.md)
-* [Colors](Styles/colors.md)
+* [Styles](docs/Styles/styles.md)
+* [Colors](docs/Styles/colors.md)
 
 Formatting with Creole (font size colour etc.):
 see: http://plantuml.com/creole
@@ -39,18 +39,21 @@ see: http://plantuml.com/commons
 
 Headers, footers, legends etc.
 
-* [Diagram Features](Diagram-Features/README.md)
+* [Diagram Features](docs/Diagram-Features/README.md)
 
 ## Layout Techniques
 
-* [Hidden Lines](Layout-Techniques/hidden-lines.md)
-* [Other Layout Tricks](Layout-Techniques/other_layout_tricks.md)
+* [Hidden Lines](docs/Layout-Techniques/hidden-lines.md)
+* [Other Layout Tricks](docs/Layout-Techniques/other_layout_tricks.md)
 
 ## Code Techniques
 
-* [Code Techniques](Code-Techniques/code-techniques.md)
+* [Code Techniques](docs/Code-Techniques/code-techniques.md)
 
 ## Useful Links
+
+All skinparams:
+https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-params.html
 
 https://github.com/joelparkerhenderson/demo_plantuml 
 

@@ -1,6 +1,6 @@
 # Code Techniques
 
-[<-Home](../README.md)
+[<-Home](../../README.md)
 
 ## Contents
 [Comments](#comments)<br>
