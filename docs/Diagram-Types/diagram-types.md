@@ -57,9 +57,48 @@ Control -> Entity: List all options (actor)
 @enduml
 ```
 
-![Sequence Simple](sequence-participants.png)
+![Sequence Participants](sequence-participants.png)
 
 The order that that participants is declared determines their order left to right in the diagram, and the order of the events is the order top to bottom
+
+Another example showing setting colours etc:
+```plantuml
+@startuml
+
+Title Another Sequence Diagram Example
+
+skinparam ParticipantBackgroundColor SkyBlue
+skinparam ParticipantBorderColor Black
+
+' Set default colours for the horizontal arrows and vertical traces: 
+skinparam sequence {
+    ArrowColor blue
+    LifeLineBorderColor black
+}
+
+' disable the bottom boxes for aesthetic reasons:
+hide footbox 
+
+' Set default colors for notes:
+skinparam NoteBackgroundColor Yellow
+skinparam NoteBorderColor black
+
+' Participants:
+participant “Alice\nin\nWonderland” as alice
+participant “Bob\n\n” as bob
+participant “Mad\nHatter\n” as hatter
+
+
+alice -> bob: what this means
+note right: Written by Lewis Carroll
+
+bob -[#red]> hatter: this arrow is red
+
+hatter -[#black]> alice: This is all\nnonsense!
+@enduml
+```
+
+![Sequence Another Example](sequence-another-example.png)
 
 <a name="use-case-diagram"/>
 
