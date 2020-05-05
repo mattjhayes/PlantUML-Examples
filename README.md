@@ -7,7 +7,7 @@ This repo is (slowly) under construction...
 
 Assorted examples of diagrams I've used in blog posts:
 
-* [Example Diagrams](docs/examples/README.md)
+* [Example Diagrams](docs/Examples/README.md)
 
 ## Diagram Types
 
