@@ -1,7 +1,13 @@
 # PlantUML-Examples
 Examples of PlantUML code to generate 'Diagrams as Code'
 
-THIS REPO IS UNDER CONSTRUCTION, CHECK BACK LATER
+This repo is (slowly) under construction...
+
+## Examples from Blog Posts
+
+Assorted examples of diagrams I've used in blog posts:
+
+* [Example Diagrams](docs/examples/README.md)
 
 ## Diagram Types
 
