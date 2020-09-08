@@ -2,7 +2,7 @@
 
 [<-Home](../../README.md)
 
-Here are some other tricks for fixing layout issues that may help.
+Here are some other tricks, if you've already tried [hidden lines](hidden-lines.md), for fixing layout issues. Your mileage may vary...
 
 ## Change Component Order
 
