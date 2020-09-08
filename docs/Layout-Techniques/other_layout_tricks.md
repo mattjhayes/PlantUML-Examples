@@ -79,7 +79,7 @@ together {
 
 ## Longer Lines
 
-Can try extending lengths of lines by adding dashes, examples starting with normal:
+Can try extending lengths of lines by adding dashes, examples starting with normal length lines:
 
 ```
 @startuml
@@ -120,4 +120,16 @@ myComponent -> myComponent4
 ```
 
 ![longer_lines](longer_lines.png)
+
+## No Rank
+
+TBD, see https://stackoverflow.com/questions/48712801/how-to-correct-plantuml-line-path/61795202#61795202
+
+## Transparent Nodes
+
+TBD, see https://stackoverflow.com/questions/48712801/how-to-correct-plantuml-line-path/48735216#48735216
+
+## Orthogonal Mode
+
+TBD, see https://stackoverflow.com/questions/48712801/how-to-correct-plantuml-line-path/48735216#48735216
 
