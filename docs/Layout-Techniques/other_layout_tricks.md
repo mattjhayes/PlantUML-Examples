@@ -62,7 +62,8 @@ Apples -right-> Pears
 
 TBD
 
-```plantuml@startuml
+```plantuml
+@startuml
 left to right direction
 ```
 
@@ -70,7 +71,8 @@ left to right direction
 
 TBD
 
-```plantuml@startuml
+```plantuml
+@startuml
 together {
     rectangle "Box 1" as box_1
     rectangle "Box 2" as box_2
@@ -81,8 +83,11 @@ together {
 
 Can try extending lengths of lines by adding dashes, examples starting with normal length lines:
 
-```
+```plantuml
 @startuml
+
+title Ugly Layout
+
 skinparam monochrome true
 
 component [component 1] as myComponent
@@ -102,8 +107,11 @@ myComponent -> myComponent4
 
 Add dashes to lines to make them longer to change layout:
 
-```
+```plantuml
 @startuml
+
+title Possibly Better Layout
+
 skinparam monochrome true
 
 component [component 1] as myComponent
