@@ -56,7 +56,7 @@ Apples -right-> Pears
 @enduml
 ```
 
-![wrong_order](reversed_order.png)
+![fixed_order](reversed_order.png)
 
 ## Left to Right
 
@@ -76,3 +76,48 @@ together {
     rectangle "Box 2" as box_2
 }
 ```
+
+## Longer Lines
+
+Can try extending lengths of lines by adding dashes, examples starting with normal:
+
+```
+@startuml
+skinparam monochrome true
+
+component [component 1] as myComponent
+component [component 2] as myComponent2
+component [component 3] as myComponent3
+component [component 4] as myComponent4
+
+myComponent -> myComponent2
+myComponent2 -> myComponent3
+myComponent2 -> myComponent4
+myComponent -> myComponent4
+
+@enduml
+```
+
+![standard_lines](standard_lines.png)
+
+Add dashes to lines to make them longer to change layout:
+
+```
+@startuml
+skinparam monochrome true
+
+component [component 1] as myComponent
+component [component 2] as myComponent2
+component [component 3] as myComponent3
+component [component 4] as myComponent4
+
+myComponent -> myComponent2
+myComponent2 ----> myComponent3
+myComponent2 ---> myComponent4
+myComponent -> myComponent4
+
+@enduml
+```
+
+![longer_lines](longer_lines.png)
+

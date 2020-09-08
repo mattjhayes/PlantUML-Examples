@@ -52,3 +52,5 @@ myComponent2 -[hidden]--> myComponent4
 ## Types of Hidden Line
 
 TBD
+
+Still stuck? Check out [other layout tricks](other_layout_tricks.md) page.
