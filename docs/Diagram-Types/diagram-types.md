@@ -131,6 +131,7 @@ TBD
 Auto detect activity diagram type by lines that start with : and end with ;
 
 <a name="mindmap-diagram"/>
+
 ## Mind Map Diagram
 
 Mind map diagrams are a great way to quickly break a problem or concept down into smaller parts.
