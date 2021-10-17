@@ -9,6 +9,7 @@ PlantUML auto-detects the diagram type based on the first unique item in the cod
 [Use Case Diagram](#use-case-diagram)<br>
 [Class Diagram](#class-diagram)<br>
 [Activity Diagram](#activity-diagram)<br>
+[Mind Map](#mindmap-diagram)<br>
 
 UNDER CONSTRUCTION
 
@@ -129,3 +130,62 @@ TBD
 
 Auto detect activity diagram type by lines that start with : and end with ;
 
+<a name="mindmap-diagram"/>
+## Mind Map Diagram
+
+Mind map diagrams are a great way to quickly break a problem or concept down into smaller parts.
+
+Here is a simple example:
+
+```plantuml
+@startmindmap
+skinparam ArrowColor DarkGrey
+<style>
+mindmapDiagram {
+  node {
+    Padding 15
+    Margin 15
+    BackGroundColor YellowGreen
+    FontColor DarkSlateGrey
+    LineColor white
+    LineThickness 1.0
+    MaximumWidth 180
+  }
+  rootNode {
+    Padding 15
+    Margin 15
+    BackGroundColor DeepSkyBlue
+    FontColor DarkSlateGrey
+    FontSize 18
+    LineColor DodgerBlue
+    LineThickness 1.0
+  }
+  leafNode {
+    Padding 15
+    Margin 15
+    BackGroundColor Thistle
+    FontColor DarkSlateGrey
+    FontSize 15
+    LineColor Plum
+    LineThickness 1.0
+  }
+}
+</style>
+* World
+ * Continents
+  * North America
+   * Canada
+   * United States
+   * Mexico
+  * Antarctica
+   * Antarctica
+  * Others TBD
+ * Oceans
+  * **Pacific**. Largest Ocean
+  * Atlantic
+  * Others TBD
+
+@endmindmap
+```
+
+![Mind Map Simple](mindmap.png)
