@@ -30,11 +30,12 @@ Different types of line
 
 ## Aesthetics
 
-How to apply styles to the diagram
+How to apply visual styles diagrams
 
 * [Styles](docs/Styles/styles.md)
 * [Colors](docs/Styles/colors.md)
 * [Fonts](docs/Styles/fonts.md)
+* [Themes](docs/Styles/themes.md)
 
 TBD - scale diagram with zoom.
 see: http://plantuml.com/commons 

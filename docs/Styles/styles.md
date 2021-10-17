@@ -10,6 +10,8 @@
 [Monochrome Handwritten](#monochrome_handwritten)<br>
 [No Shadow](#no_shadow)<br>
 
+Apply a style to the whole diagram:
+
 <a name="default"/>
 
 ## Default
