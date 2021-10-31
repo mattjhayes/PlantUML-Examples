@@ -4,7 +4,8 @@ Assorted examples of diagrams I've used in blog posts:
 [<-Home](../../README.md)
 
 ## Contents
-[IT Arch - Coupling](#itarch-coupling)<br>
+[IT Arch - Coupling](#itarch-coupling)
+[Diagrams with C4 Model](#c4-model)
 
 <a name="itarch-coupling"/>
 
@@ -106,3 +107,39 @@ comp_1 .[#red]left.> user_app : failure\npropagation
 ```
 
 ![tight_coupling_cascading_failure](tight_coupling_cascading_failure.png)
+
+<a name="c4-model"/>
+
+## Diagrams with C4 Model
+
+Here are the diagrams from the blog post [Diagrams with C4 Model](https://mattjhayes.com/2020/05/10/diagrams-with-c4-model/)
+
+Note that the C4 library has come along heaps since I wrote that post, check out  [plantuml-stdlib/C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML) 
+
+### Context Diagram
+
+```plantuml
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+' caption Context Diagram for Horrendous Hats (HH) Website
+
+LAYOUT_WITH_LEGEND()
+
+Person_Ext(customer, "Customer", "A customer wanting to buy a horrendous hat")
+
+System(site, "eComm System", "Displays hats for sale, takes orders and payments")
+System(fulfil, "Fulfilment System", "Fulfilment system that tracks inventory and ships orders to customers")
+
+System_Ext(payments, "Payment Gateway", "Provides payment service") 
+
+Rel(customer, site, "Orders hat using")
+Rel(site, payments, "Redirects payment to")
+Rel(site, fulfil, "Sends order to")
+Rel(fulfil, site, "Lists hats for sale")
+Rel(fulfil, customer, "Ships hat to")
+Rel(fulfil, customer, "Emails invoice to")
+
+@enduml
+```
+![C4 Context Diagram](c4-context-diagram.png)
