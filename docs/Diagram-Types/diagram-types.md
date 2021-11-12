@@ -190,3 +190,57 @@ mindmapDiagram {
 ```
 
 ![Mind Map Simple](mindmap.png)
+
+Example using a Mind Map to track tasks:
+
+```plantuml
+@startmindmap
+skinparam ArrowColor DarkGrey
+<style>
+mindmapDiagram {
+  node {
+    Padding 15
+    Margin 15
+    BackGroundColor YellowGreen
+    FontColor DarkSlateGrey
+    LineColor white
+    LineThickness 1.0
+    MaximumWidth 180
+  }
+  rootNode {
+    Padding 15
+    Margin 15
+    BackGroundColor DeepSkyBlue
+    FontColor DarkSlateGrey
+    FontSize 18
+    LineColor DodgerBlue
+    LineThickness 1.0
+  }
+  leafNode {
+    Padding 15
+    Margin 15
+    BackGroundColor Thistle
+    FontColor DarkSlateGrey
+    FontSize 15
+    LineColor Plum
+    LineThickness 1.0
+  }
+  .completed {
+    BackgroundColor lightslategrey
+    LineColor limegreen
+    FontStyle italic
+    LineThickness 2.0
+  }
+}
+</style>
+* Documentation
+** PlantUML Examples
+*** Mind Map Example 1 <<completed>>
+*** Mind Map Task Example
+** Other Task Group
+*** Another Task
+
+@endmindmap
+```
+
+![Mind Map Simple](mind_map_tasks.png)
