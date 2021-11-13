@@ -191,7 +191,7 @@ mindmapDiagram {
 
 ![Mind Map Simple](mindmap.png)
 
-Example using a Mind Map to track tasks:
+Example using a Mind Map to track tasks, with visual tags for urgent and completed:
 
 ```plantuml
 @startmindmap
@@ -231,12 +231,19 @@ mindmapDiagram {
     FontStyle italic
     LineThickness 2.0
   }
+  .urgent {
+    BackgroundColor orangered
+    LineColor yellow
+    FontStyle bold
+    LineThickness 2.0
+  }
 }
 </style>
 * Documentation
 ** PlantUML Examples
 *** Mind Map Example 1 <<completed>>
-*** Mind Map Task Example
+*** Mind Map Task Example <<urgent>>
+*** Another Mind Map Example
 ** Other Task Group
 *** Another Task
 
