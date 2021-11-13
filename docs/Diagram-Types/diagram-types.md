@@ -9,7 +9,7 @@ PlantUML auto-detects the diagram type based on the first unique item in the cod
 [Mind Map](#mindmap-diagram)<br>
 [Mind Map of Tasks](#mindmap-diagram-tasks)<br>
 [Component Diagrams](#component-diagrams)<br>
-[C4 Model Diagrams](../../Examples/README.md#c4-model)
+[C4 Model Diagrams](../Examples/README.md#c4-model)<br>
 [Use Case Diagram](#use-case-diagram)<br>
 [Class Diagram](#class-diagram)<br>
 [Activity Diagram](#activity-diagram)<br>
