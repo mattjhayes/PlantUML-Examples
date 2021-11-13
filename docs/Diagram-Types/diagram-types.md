@@ -8,6 +8,8 @@ PlantUML auto-detects the diagram type based on the first unique item in the cod
 [Sequence Diagram](#sequence-diagram)<br>
 [Mind Map](#mindmap-diagram)<br>
 [Mind Map of Tasks](#mindmap-diagram-tasks)<br>
+[Component Diagrams](#component-diagrams)<br>
+[C4 Model Diagrams](../../Examples/README.md#c4-model)
 [Use Case Diagram](#use-case-diagram)<br>
 [Class Diagram](#class-diagram)<br>
 [Activity Diagram](#activity-diagram)<br>
@@ -225,6 +227,12 @@ mindmapDiagram {
 
 @endmindmap
 ```
+
+<a name="component-diagrams"/>
+
+## Component Diagrams
+
+TBD
 
 <a name="use-case-diagram"/>
 
