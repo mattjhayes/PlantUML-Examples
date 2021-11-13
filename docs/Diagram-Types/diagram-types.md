@@ -29,9 +29,20 @@ Here is a simple example:
 ```plantuml
 @startuml
 title Alice and Bob do a 3-Way TCP Handshake
+
+skinparam ParticipantBackgroundColor SkyBlue
+skinparam ParticipantBorderColor Black
+
+' Set default colours for the horizontal arrows and vertical traces: 
+skinparam sequence {
+    ArrowColor blue
+    LifeLineBorderColor black
+}
+
 Alice -> Bob: SYN
 Bob --> Alice: SYN+ACK
 Alice -> Bob: ACK
+
 @enduml
 ```
 
@@ -42,6 +53,28 @@ There are multiple types of participant that can be used to trigger a sequence d
 ```plantuml
 @startuml
 title Sequence Participants
+
+' Set colors:
+skinparam ParticipantBackgroundColor skyblue
+skinparam ParticipantBorderColor black
+skinparam ArrowColor darkblue
+skinparam ActorBorderColor black
+skinparam ActorBackgroundColor skyblue
+skinparam BoundaryBorderColor black
+skinparam BoundaryBackgroundColor skyblue
+skinparam ControlBorderColor black
+skinparam ControlBackgroundColor skyblue
+skinparam EntityBorderColor black
+skinparam EntityBackgroundColor skyblue
+skinparam DatabaseBorderColor black
+skinparam DatabaseBackgroundColor skyblue
+skinparam CollectionsBorderColor black
+skinparam CollectionsBackgroundColor skyblue
+
+skinparam Sequence {
+    LifelineBorderColor gray
+}
+
 ' Specify the participants left to right:
 participant Participant
 actor Actor
@@ -64,6 +97,37 @@ Control -> Entity: List all options (actor)
 ```
 
 The order that that participants is declared determines their order left to right in the diagram, and the order of the events is the order top to bottom
+
+Here is the same diagram, but with simpler set-up code, thanks to use of a theme:
+
+![Sequence Participants](sequence-participants-theme.png)
+
+```plantuml
+@startuml
+!theme bluegray
+title Sequence Participants
+
+' Specify the participants left to right:
+participant Participant
+actor Actor
+boundary Boundary
+control Control
+entity Entity
+database Database
+collections Collections
+' Specify the events (in order):
+group authentication
+    Actor -> Boundary: Request Logon
+    Boundary -> Actor: Provide Credentials
+    Actor -> Boundary: username: actor, password: example123
+    Boundary -> Actor: Accepted
+end
+Actor -> Boundary: List all options
+Boundary -> Control: List all options (actor)
+Control -> Entity: List all options (actor)
+@enduml
+```
+
 
 Another example showing setting colours etc:
 
