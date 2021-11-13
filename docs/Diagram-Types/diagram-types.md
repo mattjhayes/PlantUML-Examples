@@ -6,10 +6,11 @@ PlantUML auto-detects the diagram type based on the first unique item in the cod
 
 ## Contents
 [Sequence Diagram](#sequence-diagram)<br>
+[Mind Map](#mindmap-diagram)<br>
+[Mind Map of Tasks](#mindmap-diagram-tasks)<br>
 [Use Case Diagram](#use-case-diagram)<br>
 [Class Diagram](#class-diagram)<br>
 [Activity Diagram](#activity-diagram)<br>
-[Mind Map](#mindmap-diagram)<br>
 
 UNDER CONSTRUCTION
 
@@ -21,6 +22,8 @@ Sequence diagrams present ordered events that occur between participants (actors
 
 Here is a simple example:
 
+![Sequence Simple](sequence-simple.png)
+
 ```plantuml
 @startuml
 title Alice and Bob do a 3-Way TCP Handshake
@@ -30,9 +33,9 @@ Alice -> Bob: ACK
 @enduml
 ```
 
-![Sequence Simple](sequence-simple.png)
-
 There are multiple types of participant that can be used to trigger a sequence diagram, as per the types in the example below:
+
+![Sequence Participants](sequence-participants.png)
 
 ```plantuml
 @startuml
@@ -58,11 +61,12 @@ Control -> Entity: List all options (actor)
 @enduml
 ```
 
-![Sequence Participants](sequence-participants.png)
-
 The order that that participants is declared determines their order left to right in the diagram, and the order of the events is the order top to bottom
 
 Another example showing setting colours etc:
+
+![Sequence Another Example](sequence-another-example.png)
+
 ```plantuml
 @startuml
 
@@ -89,7 +93,6 @@ participant “Alice\nin\nWonderland” as alice
 participant “Bob\n\n” as bob
 participant “Mad\nHatter\n” as hatter
 
-
 alice -> bob: what this means
 note right: Written by Lewis Carroll
 
@@ -99,44 +102,13 @@ hatter -[#black]> alice: This is all\nnonsense!
 @enduml
 ```
 
-![Sequence Another Example](sequence-another-example.png)
-
-<a name="use-case-diagram"/>
-
-## Use Case Diagram
-
-TBD
-
-Auto detect use case diagram type by TBD
-
-<a name="class-diagram"/>
-
-## Class Diagram
-
-TBD
-
-Auto detect class diagram type by use of line type:
-* <|--
-* *--
-* o--
-* ..
-* --
-
-<a name="activity-diagram"/>
-
-## Activity Diagram
-
-TBD
-
-Auto detect activity diagram type by lines that start with : and end with ;
-
-<a name="mindmap-diagram"/>
-
 ## Mind Map Diagram
 
 Mind map diagrams are a great way to quickly break a problem or concept down into smaller parts.
 
 Here is a simple example:
+
+![Mind Map Simple](mindmap.png)
 
 ```plantuml
 @startmindmap
@@ -189,9 +161,13 @@ mindmapDiagram {
 @endmindmap
 ```
 
-![Mind Map Simple](mindmap.png)
+<a name="mindmap-diagram-tasks"/>
 
-Example using a Mind Map to track tasks, with visual tags for urgent and completed:
+## Mind Map Diagram of Tasks
+
+Here we create a Mind Map to track tasks, with visual tags for urgent and completed:
+
+![Mind Map Simple](mind_map_tasks.png)
 
 ```plantuml
 @startmindmap
@@ -250,4 +226,33 @@ mindmapDiagram {
 @endmindmap
 ```
 
-![Mind Map Simple](mind_map_tasks.png)
+<a name="use-case-diagram"/>
+
+## Use Case Diagram
+
+TBD
+
+Auto detect use case diagram type by TBD
+
+<a name="class-diagram"/>
+
+## Class Diagram
+
+TBD
+
+Auto detect class diagram type by use of line type:
+* <|--
+* *--
+* o--
+* ..
+* --
+
+<a name="activity-diagram"/>
+
+## Activity Diagram
+
+TBD
+
+Auto detect activity diagram type by lines that start with : and end with ;
+
+<a name="mindmap-diagram"/>
