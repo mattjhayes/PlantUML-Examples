@@ -1,6 +1,6 @@
-Simple Sequence Diagram
-
 [<-Diagram Types](../diagram-types.md)
+
+Simple Sequence Diagram:
 
 ![Sequence Simple](sequence-simple/sequence-simple.png)
 

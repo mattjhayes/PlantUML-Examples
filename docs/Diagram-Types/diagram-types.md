@@ -72,6 +72,7 @@ Here we create a Mind Map to track tasks, with visual tags for urgent and comple
 [(source PlantUML code)](source/mindmap-tasks.md)
 
 <a name="deployment-diagrams"/>
+
 ## Deployment Diagrams
 
 This isn't strictly a UML Deployment Diagram, but is similar:
