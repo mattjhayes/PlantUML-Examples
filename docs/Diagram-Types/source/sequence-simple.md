@@ -1,80 +1,28 @@
-# Deployment-Like Diagram
+Simple Sequence Diagram
 
 [<-Diagram Types](../diagram-types.md)
 
-This isn't strictly a UML Deployment Diagram, but is similar:
-
-![Deployment-Like Diagram](deployment-like-diagram/deployment-like-diagram.png)
+![Sequence Simple](sequence-simple/sequence-simple.png)
 
 Source code:
+
 ```plantuml
 @startuml
-!theme sketchy-outline
-hide stereotype
+title Alice and Bob do a 3-Way TCP Handshake
 
-skinparam linetype ortho
+skinparam ParticipantBackgroundColor SkyBlue
+skinparam ParticipantBorderColor Black
 
-<style>
-  ' Styles to apply to components to indicate something of note:
-  ' in-scope (<<i>>)
-  .i {
-    BackgroundColor SkyBlue
-  }
-  ' out-of-scope (<<o>>)
-  .o {
-    BackgroundColor LightSlateGray
-    FontStyle italic
-    FontColor DarkGray
-  }
-}
-</style>
-' Legend colours need to be updated manually :-(
-legend
-|<back:SkyBlue><b>In-Scope        .</b></back>|
-|<back:LightSlateGrey><b>Out-of-Scope .</b></back>|
-endlegend
-
-rectangle "Acme IT Services" {
-    rectangle "Application Suites" as apps {
-        rectangle ERP <<o>>
-        rectangle CRM <<o>>
-        rectangle "In-House Special App" <<i>>
-    }
-    rectangle "Components" as components {
-        rectangle "App Server" <<i>>
-        rectangle "Reverse Proxy"
-        rectangle "Database" <<i>>
-        rectangle "Pub Sub Message Bus" <<i>>
-        rectangle "API Gateway" <<i>>
-    }
-    rectangle "Supporting Services" as sup_svces {
-        rectangle AD <<i>>
-        rectangle DNS <<i>>
-        rectangle DHCP
-        rectangle NTP
-    }
-    rectangle Infrastructure as infra {
-        rectangle Network {
-            rectangle Router
-            rectangle Switch
-            rectangle Firewall <<i>>
-            rectangle "App Delivery Controller" <<i>>
-        }
-        rectangle Server <<i>>
-        rectangle Storage <<i>>
-    }
-    rectangle Physical as phy {
-        rectangle Power
-        rectangle Cooling
-    }
+' Set default colours for the horizontal arrows and vertical traces: 
+skinparam sequence {
+    ArrowColor blue
+    LifeLineBorderColor black
 }
 
-infra ---> phy
-sup_svces --> infra
-apps --> sup_svces
-apps --> components
-components --> sup_svces
-components --> infra
+Alice -> Bob: SYN
+Bob --> Alice: SYN+ACK
+Alice -> Bob: ACK
 
 @enduml
 ```
+

@@ -25,77 +25,13 @@ Sequence diagrams present ordered events that occur between participants (actors
 
 Here is a simple example:
 
-![Sequence Simple](sequence-simple.png)
-
-```plantuml
-@startuml
-title Alice and Bob do a 3-Way TCP Handshake
-
-skinparam ParticipantBackgroundColor SkyBlue
-skinparam ParticipantBorderColor Black
-
-' Set default colours for the horizontal arrows and vertical traces: 
-skinparam sequence {
-    ArrowColor blue
-    LifeLineBorderColor black
-}
-
-Alice -> Bob: SYN
-Bob --> Alice: SYN+ACK
-Alice -> Bob: ACK
-
-@enduml
-```
+![Sequence Simple](source/sequence-simple/sequence-simple.png)
+[(source PlantUML code)](source/sequence-simple.md)
 
 There are multiple types of participant that can be used to trigger a sequence diagram, as per the types in the example below:
 
-![Sequence Participants](sequence-participants.png)
-
-```plantuml
-@startuml
-title Sequence Participants
-
-' Set colors:
-skinparam ParticipantBackgroundColor skyblue
-skinparam ParticipantBorderColor black
-skinparam ArrowColor darkblue
-skinparam ActorBorderColor black
-skinparam ActorBackgroundColor skyblue
-skinparam BoundaryBorderColor black
-skinparam BoundaryBackgroundColor skyblue
-skinparam ControlBorderColor black
-skinparam ControlBackgroundColor skyblue
-skinparam EntityBorderColor black
-skinparam EntityBackgroundColor skyblue
-skinparam DatabaseBorderColor black
-skinparam DatabaseBackgroundColor skyblue
-skinparam CollectionsBorderColor black
-skinparam CollectionsBackgroundColor skyblue
-
-skinparam Sequence {
-    LifelineBorderColor gray
-}
-
-' Specify the participants left to right:
-participant Participant
-actor Actor
-boundary Boundary
-control Control
-entity Entity
-database Database
-collections Collections
-' Specify the events (in order):
-group authentication
-    Actor -> Boundary: Request Logon
-    Boundary -> Actor: Provide Credentials
-    Actor -> Boundary: username: actor, password: example123
-    Boundary -> Actor: Accepted
-end
-Actor -> Boundary: List all options
-Boundary -> Control: List all options (actor)
-Control -> Entity: List all options (actor)
-@enduml
-```
+![Sequence Participants](source/sequence-participants/sequence-participants.png)
+[(source PlantUML code)](source/sequence-participants.md)
 
 The order that that participants is declared determines their order left to right in the diagram, and the order of the events is the order top to bottom
 
@@ -300,7 +236,7 @@ mindmapDiagram {
 This isn't strictly a UML Deployment Diagram, but is similar:
 
 ![Deployment-Like Diagram](source/deployment-like-diagram/deployment-like-diagram.png)
-[source code](source/deployment-like-diagram.md)
+[(source PlantUML code)](source/deployment-like-diagram.md)
 
 <a name="component-diagrams"/>
 
