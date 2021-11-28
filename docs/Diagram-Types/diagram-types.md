@@ -50,6 +50,7 @@ Another example showing setting colours etc:
 [(source PlantUML code)](source/sequence-another-example.md)
 
 <a name="mindmap-diagram"/>
+
 ## Mind Map Diagram
 
 Mind map diagrams are a great way to quickly break a problem or concept down into smaller parts.
@@ -61,6 +62,7 @@ Here is a simple example:
 [(source PlantUML code)](source/mindmap.md)
 
 <a name="mindmap-diagram-tasks"/>
+
 ## Mind Map Diagram of Tasks
 
 Here we create a Mind Map to track tasks, with visual tags for urgent and completed:
