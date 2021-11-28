@@ -1,6 +1,6 @@
-Sequence Diagram with Participants and using a Theme
-
 [<-Diagram Types](../diagram-types.md)
+
+Sequence Diagram with Participants and using a Theme:
 
 ![Sequence Simple](sequence-participants-theme/sequence-participants-theme.png)
 

@@ -1,6 +1,6 @@
-Mind Map of Tasks Example
-
 [<-Diagram Types](../diagram-types.md)
+
+Mind Map of Tasks Example:
 
 ![Mind Map of Tasks](mindmap-tasks/mindmap-tasks.png)
 

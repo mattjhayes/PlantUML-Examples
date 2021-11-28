@@ -1,6 +1,6 @@
-# Deployment-Like Diagram
-
 [<-Diagram Types](../diagram-types.md)
+
+# Deployment-Like Diagram
 
 This isn't strictly a UML Deployment Diagram, but is similar:
 

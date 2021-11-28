@@ -1,6 +1,6 @@
-Sequence Diagram with Participants
-
 [<-Diagram Types](../diagram-types.md)
+
+Sequence Diagram with Participants:
 
 ![Sequence Simple](sequence-participants/sequence-participants.png)
 

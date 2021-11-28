@@ -1,6 +1,6 @@
-Sequence Diagram - Another Example
-
 [<-Diagram Types](../diagram-types.md)
+
+Sequence Diagram - Another Example:
 
 ![Sequence Simple](sequence-another-example/sequence-another-example.png)
 

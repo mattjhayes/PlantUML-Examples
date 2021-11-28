@@ -1,6 +1,6 @@
-Mind Map Example
-
 [<-Diagram Types](../diagram-types.md)
+
+Mind Map Example:
 
 ![Mind Map](mindmap/mindmap.png)
 
