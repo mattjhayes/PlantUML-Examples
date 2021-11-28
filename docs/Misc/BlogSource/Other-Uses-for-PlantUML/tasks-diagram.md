@@ -1,3 +1,4 @@
+```plantuml
 @startmindmap
 skinparam ArrowColor DarkGrey
 <style>
@@ -78,3 +79,4 @@ endlegend
   * Design for Portal (Frank) <<d>>
 
 @endmindmap
+```
