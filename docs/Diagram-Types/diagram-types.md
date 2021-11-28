@@ -45,42 +45,9 @@ Here is the same diagram, but with simpler set-up code, thanks to use of a theme
 
 Another example showing setting colours etc:
 
-![Sequence Another Example](sequence-another-example.png)
+![Sequence Another Example](source/sequence-another-example/sequence-another-example.png)
 
-```plantuml
-@startuml
-
-Title Another Sequence Diagram Example
-
-skinparam ParticipantBackgroundColor SkyBlue
-skinparam ParticipantBorderColor Black
-
-' Set default colours for the horizontal arrows and vertical traces: 
-skinparam sequence {
-    ArrowColor blue
-    LifeLineBorderColor black
-}
-
-' disable the bottom boxes for aesthetic reasons:
-hide footbox 
-
-' Set default colors for notes:
-skinparam NoteBackgroundColor Yellow
-skinparam NoteBorderColor black
-
-' Participants:
-participant “Alice\nin\nWonderland” as alice
-participant “Bob\n\n” as bob
-participant “Mad\nHatter\n” as hatter
-
-alice -> bob: what this means
-note right: Written by Lewis Carroll
-
-bob -[#red]> hatter: this arrow is red
-
-hatter -[#black]> alice: This is all\nnonsense!
-@enduml
-```
+[(source PlantUML code)](source/sequence-another-example.md)
 
 ## Mind Map Diagram
 
@@ -88,58 +55,9 @@ Mind map diagrams are a great way to quickly break a problem or concept down int
 
 Here is a simple example:
 
-![Mind Map Simple](mindmap.png)
+![Mind Map Simple](source/mindmap/mindmap.png)
 
-```plantuml
-@startmindmap
-skinparam ArrowColor DarkGrey
-<style>
-mindmapDiagram {
-  node {
-    Padding 15
-    Margin 15
-    BackGroundColor YellowGreen
-    FontColor DarkSlateGrey
-    LineColor white
-    LineThickness 1.0
-    MaximumWidth 180
-  }
-  rootNode {
-    Padding 15
-    Margin 15
-    BackGroundColor DeepSkyBlue
-    FontColor DarkSlateGrey
-    FontSize 18
-    LineColor DodgerBlue
-    LineThickness 1.0
-  }
-  leafNode {
-    Padding 15
-    Margin 15
-    BackGroundColor Thistle
-    FontColor DarkSlateGrey
-    FontSize 15
-    LineColor Plum
-    LineThickness 1.0
-  }
-}
-</style>
-* World
- * Continents
-  * North America
-   * Canada
-   * United States
-   * Mexico
-  * Antarctica
-   * Antarctica
-  * Others TBD
- * Oceans
-  * **Pacific**. Largest Ocean
-  * Atlantic
-  * Others TBD
-
-@endmindmap
-```
+[(source PlantUML code)](source/mindmap.md)
 
 <a name="mindmap-diagram-tasks"/>
 
