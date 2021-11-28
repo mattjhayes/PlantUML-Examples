@@ -5,7 +5,7 @@
 PlantUML auto-detects the diagram type based on the first unique item in the code
 
 ## Contents
-[Sequence Diagram](#sequence-diagram)<br>
+[Sequence Diagrams](#sequence-diagram)<br>
 [Mind Map](#mindmap-diagram)<br>
 [Mind Map of Tasks](#mindmap-diagram-tasks)<br>
 [Deployment Diagrams](#deployment-diagrams)<br>
@@ -49,6 +49,7 @@ Another example showing setting colours etc:
 
 [(source PlantUML code)](source/sequence-another-example.md)
 
+<a name="mindmap-diagram"/>
 ## Mind Map Diagram
 
 Mind map diagrams are a great way to quickly break a problem or concept down into smaller parts.
@@ -60,77 +61,21 @@ Here is a simple example:
 [(source PlantUML code)](source/mindmap.md)
 
 <a name="mindmap-diagram-tasks"/>
-
 ## Mind Map Diagram of Tasks
 
 Here we create a Mind Map to track tasks, with visual tags for urgent and completed:
 
-![Mind Map Simple](mind_map_tasks.png)
+![Mind Map of Tasks ](source/mindmap-tasks/mindmap-tasks.png)
 
-```plantuml
-@startmindmap
-skinparam ArrowColor DarkGrey
-<style>
-mindmapDiagram {
-  node {
-    Padding 15
-    Margin 15
-    BackGroundColor YellowGreen
-    FontColor DarkSlateGrey
-    LineColor white
-    LineThickness 1.0
-    MaximumWidth 180
-  }
-  rootNode {
-    Padding 15
-    Margin 15
-    BackGroundColor DeepSkyBlue
-    FontColor DarkSlateGrey
-    FontSize 18
-    LineColor DodgerBlue
-    LineThickness 1.0
-  }
-  leafNode {
-    Padding 15
-    Margin 15
-    BackGroundColor Thistle
-    FontColor DarkSlateGrey
-    FontSize 15
-    LineColor Plum
-    LineThickness 1.0
-  }
-  .completed {
-    BackgroundColor lightslategrey
-    LineColor limegreen
-    FontStyle italic
-    LineThickness 2.0
-  }
-  .urgent {
-    BackgroundColor orangered
-    LineColor yellow
-    FontStyle bold
-    LineThickness 2.0
-  }
-}
-</style>
-* Documentation
-** PlantUML Examples
-*** Mind Map Example 1 <<completed>>
-*** Mind Map Task Example <<urgent>>
-*** Another Mind Map Example
-** Other Task Group
-*** Another Task
-
-@endmindmap
-```
+[(source PlantUML code)](source/mindmap-tasks.md)
 
 <a name="deployment-diagrams"/>
-
 ## Deployment Diagrams
 
 This isn't strictly a UML Deployment Diagram, but is similar:
 
 ![Deployment-Like Diagram](source/deployment-like-diagram/deployment-like-diagram.png)
+
 [(source PlantUML code)](source/deployment-like-diagram.md)
 
 <a name="component-diagrams"/>
