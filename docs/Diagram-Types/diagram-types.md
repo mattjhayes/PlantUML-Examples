@@ -6,6 +6,7 @@ PlantUML auto-detects the diagram type based on the first unique item in the cod
 
 ## Contents
 [Sequence Diagrams](#sequence-diagram)<br>
+[Gantt Charts](#gantt-charts)<br>
 [Mind Map](#mindmap-diagram)<br>
 [Mind Map of Tasks](#mindmap-diagram-tasks)<br>
 [Deployment Diagrams](#deployment-diagrams)<br>
@@ -19,7 +20,7 @@ UNDER CONSTRUCTION
 
 <a name="sequence-diagram"/>
 
-## Sequence Diagram
+## Sequence Diagrams
 
 Sequence diagrams present ordered events that occur between participants (actors) over time (which runs top-to-bottom)
 
@@ -48,6 +49,16 @@ Another example showing setting colours etc:
 ![Sequence Another Example](source/sequence-another-example/sequence-another-example.png)
 
 [(source PlantUML code)](source/sequence-another-example.md)
+
+<a name="gantt-charts"/>
+
+## Gantt Charts
+
+Example Gantt chart:
+
+![Gantt Chart](source/gantt/gantt.png)
+
+[(source PlantUML code)](source/gantt.md)
 
 <a name="mindmap-diagram"/>
 
