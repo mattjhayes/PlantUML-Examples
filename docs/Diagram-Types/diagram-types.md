@@ -8,6 +8,7 @@ PlantUML auto-detects the diagram type based on the first unique item in the cod
 [Sequence Diagram](#sequence-diagram)<br>
 [Mind Map](#mindmap-diagram)<br>
 [Mind Map of Tasks](#mindmap-diagram-tasks)<br>
+[Deployment Diagrams](#deployment-diagrams)<br>
 [Component Diagrams](#component-diagrams)<br>
 [C4 Model Diagrams](../Examples/README.md#c4-model)<br>
 [Use Case Diagram](#use-case-diagram)<br>
@@ -291,6 +292,15 @@ mindmapDiagram {
 
 @endmindmap
 ```
+
+<a name="deployment-diagrams"/>
+
+## Deployment Diagrams
+
+This isn't strictly a UML Deployment Diagram, but is similar:
+
+![Deployment-Like Diagram](source/deployment-like-diagram/deployment-like-diagram.png)
+[source code](source/deployment-like-diagram.md)
 
 <a name="component-diagrams"/>
 

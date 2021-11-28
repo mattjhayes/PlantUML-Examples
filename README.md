@@ -1,17 +1,11 @@
 # PlantUML-Examples
-Examples of PlantUML code to generate 'Diagrams as Code'
+Examples of PlantUML code to generate 'Diagrams-as-Code'
 
 This repo is (slowly) under construction...
 
-## Examples from Blog Posts
-
-Assorted examples of diagrams I've used in blog posts:
-
-* [Example Diagrams](docs/Examples/README.md)
-
 ## Diagram Types
 
-PlantUML has multiple types of diagram, however rather than explicitly specifying the type in code, it is implied by the choice of the first unique object specified... Click the link below for more on this, including the built-in diagram types:
+PlantUML has multiple types of diagram, however rather than explicitly specifying the type in code, it is implied by the choice of the first unique object specified... Or by the @ directive at the start of the code (examples: @startmindmap, @startgantt, etc.). Click the link below for more on this, including the built-in diagram types:
 
 * [Diagram Types](docs/Diagram-Types/diagram-types.md)
 
@@ -51,14 +45,23 @@ Headers, footers, legends etc.
 * [Hidden Lines](docs/Layout-Techniques/hidden-lines.md)
 * [Other Layout Tricks](docs/Layout-Techniques/other_layout_tricks.md)
 
-## Code Techniques
+## PlantUML Coding
 
 * [Code Techniques](docs/Code-Techniques/code-techniques.md)
+
+## Examples from Blog Posts
+
+Assorted examples of diagrams I've used in blog posts:
+
+* [Example Diagrams](docs/Examples/README.md)
 
 ## Useful Links
 
 All skinparams:
 https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-params.html
+
+Interview with Arnaud Roques (creator of PlantUML):
+https://modeling-languages.com/interview-plantuml/
 
 https://github.com/joelparkerhenderson/demo_plantuml 
 
