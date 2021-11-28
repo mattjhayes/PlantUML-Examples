@@ -63,6 +63,9 @@ https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-para
 Interview with Arnaud Roques (creator of PlantUML):
 https://modeling-languages.com/interview-plantuml/
 
+Blog post by Alex Sarafian with some good PlantUML tips and tricks
+https://sarafian.github.io/tips/2021/03/11/plantuml-tips-tricks-1.html
+
 https://github.com/joelparkerhenderson/demo_plantuml 
 
 https://real-world-plantuml.com/
