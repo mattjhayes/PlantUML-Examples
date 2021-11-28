@@ -26,45 +26,22 @@ Sequence diagrams present ordered events that occur between participants (actors
 Here is a simple example:
 
 ![Sequence Simple](source/sequence-simple/sequence-simple.png)
+
 [(source PlantUML code)](source/sequence-simple.md)
 
 There are multiple types of participant that can be used to trigger a sequence diagram, as per the types in the example below:
 
 ![Sequence Participants](source/sequence-participants/sequence-participants.png)
+
 [(source PlantUML code)](source/sequence-participants.md)
 
 The order that that participants is declared determines their order left to right in the diagram, and the order of the events is the order top to bottom
 
 Here is the same diagram, but with simpler set-up code, thanks to use of a theme:
 
-![Sequence Participants](sequence-participants-theme.png)
+![Sequence Participants](source/sequence-participants-theme/sequence-participants-theme.png)
 
-```plantuml
-@startuml
-!theme bluegray
-title Sequence Participants
-
-' Specify the participants left to right:
-participant Participant
-actor Actor
-boundary Boundary
-control Control
-entity Entity
-database Database
-collections Collections
-' Specify the events (in order):
-group authentication
-    Actor -> Boundary: Request Logon
-    Boundary -> Actor: Provide Credentials
-    Actor -> Boundary: username: actor, password: example123
-    Boundary -> Actor: Accepted
-end
-Actor -> Boundary: List all options
-Boundary -> Control: List all options (actor)
-Control -> Entity: List all options (actor)
-@enduml
-```
-
+[(source PlantUML code)](source/sequence-participants-theme.md)
 
 Another example showing setting colours etc:
 
