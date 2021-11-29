@@ -5,50 +5,54 @@
 PlantUML auto-detects the diagram type based on the first unique item in the code
 
 ## Contents
-[Sequence Diagrams](#sequence-diagram)<br>
+
+[Activity Diagram](#activity-diagram)<br>
+[C4 Model Diagrams](../Examples/README.md#c4-model)<br>
+[Class Diagram](#class-diagram)<br>
+[Component Diagrams](#component-diagrams)<br>
+[Deployment Diagrams](#deployment-diagrams)<br>
 [Gantt Charts](#gantt-charts)<br>
 [Mind Map](#mindmap-diagram)<br>
 [Mind Map of Tasks](#mindmap-diagram-tasks)<br>
-[Deployment Diagrams](#deployment-diagrams)<br>
-[Component Diagrams](#component-diagrams)<br>
-[C4 Model Diagrams](../Examples/README.md#c4-model)<br>
+[Sequence Diagrams](#sequence-diagram)<br>
 [Use Case Diagram](#use-case-diagram)<br>
-[Class Diagram](#class-diagram)<br>
-[Activity Diagram](#activity-diagram)<br>
 
-UNDER CONSTRUCTION
+<a name="activity-diagram"/>
 
-<a name="sequence-diagram"/>
+## Activity Diagram
 
-## Sequence Diagrams
+TBD
 
-Sequence diagrams present ordered events that occur between participants (actors) over time (which runs top-to-bottom)
+Auto detect activity diagram type by lines that start with : and end with ;
 
-Here is a simple example:
+<a name="class-diagram"/>
 
-![Sequence Simple](source/sequence-simple/sequence-simple.png)
+## Class Diagram
 
-[(source PlantUML code)](source/sequence-simple.md)
+TBD
 
-There are multiple types of participant that can be used to trigger a sequence diagram, as per the types in the example below:
+Auto detect class diagram type by use of line type:
+* <|--
+* *--
+* o--
+* ..
+* --
 
-![Sequence Participants](source/sequence-participants/sequence-participants.png)
+<a name="component-diagrams"/>
 
-[(source PlantUML code)](source/sequence-participants.md)
+## Component Diagrams
 
-The order that that participants is declared determines their order left to right in the diagram, and the order of the events is the order top to bottom
+TBD
 
-Here is the same diagram, but with simpler set-up code, thanks to use of a theme:
+<a name="deployment-diagrams"/>
 
-![Sequence Participants](source/sequence-participants-theme/sequence-participants-theme.png)
+## Deployment Diagrams
 
-[(source PlantUML code)](source/sequence-participants-theme.md)
+This isn't strictly a UML Deployment Diagram, but is similar:
 
-Another example showing setting colours etc:
+![Deployment-Like Diagram](source/deployment-like-diagram/deployment-like-diagram.png)
 
-![Sequence Another Example](source/sequence-another-example/sequence-another-example.png)
-
-[(source PlantUML code)](source/sequence-another-example.md)
+[(source PlantUML code)](source/deployment-like-diagram.md)
 
 <a name="gantt-charts"/>
 
@@ -82,21 +86,37 @@ Here we create a Mind Map to track tasks, with visual tags for urgent and comple
 
 [(source PlantUML code)](source/mindmap-tasks.md)
 
-<a name="deployment-diagrams"/>
+<a name="sequence-diagram"/>
 
-## Deployment Diagrams
+## Sequence Diagrams
 
-This isn't strictly a UML Deployment Diagram, but is similar:
+Sequence diagrams present ordered events that occur between participants (actors) over time (which runs top-to-bottom)
 
-![Deployment-Like Diagram](source/deployment-like-diagram/deployment-like-diagram.png)
+Here is a simple example:
 
-[(source PlantUML code)](source/deployment-like-diagram.md)
+![Sequence Simple](source/sequence-simple/sequence-simple.png)
 
-<a name="component-diagrams"/>
+[(source PlantUML code)](source/sequence-simple.md)
 
-## Component Diagrams
+There are multiple types of participant that can be used to trigger a sequence diagram, as per the types in the example below:
 
-TBD
+![Sequence Participants](source/sequence-participants/sequence-participants.png)
+
+[(source PlantUML code)](source/sequence-participants.md)
+
+The order that that participants is declared determines their order left to right in the diagram, and the order of the events is the order top to bottom
+
+Here is the same diagram, but with simpler set-up code, thanks to use of a theme:
+
+![Sequence Participants](source/sequence-participants-theme/sequence-participants-theme.png)
+
+[(source PlantUML code)](source/sequence-participants-theme.md)
+
+Another example showing setting colours etc:
+
+![Sequence Another Example](source/sequence-another-example/sequence-another-example.png)
+
+[(source PlantUML code)](source/sequence-another-example.md)
 
 <a name="use-case-diagram"/>
 
@@ -106,25 +126,3 @@ TBD
 
 Auto detect use case diagram type by TBD
 
-<a name="class-diagram"/>
-
-## Class Diagram
-
-TBD
-
-Auto detect class diagram type by use of line type:
-* <|--
-* *--
-* o--
-* ..
-* --
-
-<a name="activity-diagram"/>
-
-## Activity Diagram
-
-TBD
-
-Auto detect activity diagram type by lines that start with : and end with ;
-
-<a name="mindmap-diagram"/>
