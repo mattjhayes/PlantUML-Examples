@@ -1,7 +1,5 @@
 # PlantUML-Examples
-Examples of PlantUML code to generate 'Diagrams-as-Code'
-
-This repo is (slowly) under construction...
+This repo has examples of PlantUML code and diagrams, along with some coding hints and a few other bits and pieces.
 
 ## Diagram Types
 
@@ -48,12 +46,6 @@ Headers, footers, legends etc.
 ## PlantUML Coding
 
 * [Code Techniques](docs/Code-Techniques/code-techniques.md)
-
-## Examples from Blog Posts
-
-Assorted examples of diagrams I've used in blog posts:
-
-* [Example Diagrams](docs/Examples/README.md)
 
 ## Useful Links
 

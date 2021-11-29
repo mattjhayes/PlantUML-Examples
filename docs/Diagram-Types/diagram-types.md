@@ -136,7 +136,7 @@ Another example showing setting colours etc:
 
 ## Use Case Diagram
 
-TBD
+![Use Case Diagram Example](source/use-case-diagram/use-case-diagram.png)
 
-Auto detect use case diagram type by TBD
+[(source PlantUML code)](source/use-case-diagram.md)
 
