@@ -17,36 +17,42 @@ PlantUML auto-detects the diagram type based on the first unique item in the cod
 [Sequence Diagrams](#sequence-diagram)<br>
 [Use Case Diagram](#use-case-diagram)<br>
 
+
 <a name="activity-diagram"/>
 
 ## Activity Diagram
-
-Auto detect activity diagram type by lines that start with : and end with ;
 
 ![Activity Diagram](source/activity-diagram/activity-diagram.png)
 
 [(source PlantUML code)](source/activity-diagram.md)
 
+Note: auto-detect activity diagram type by lines that start with : and end with ;
+
+
 <a name="class-diagram"/>
 
 ## Class Diagram
 
-Auto detect class diagram type by use of line type:
+![Class Diagram](source/class-diagram/class-diagram.png)
+
+[(source PlantUML code)](source/class-diagram.md)
+
+Note: auto-detect of class diagram type by use of line type:
 * <|--
 * *--
 * o--
 * ..
 * --
 
-![Class Diagram](source/class-diagram/class-diagram.png)
-
-[(source PlantUML code)](source/class-diagram.md)
 
 <a name="component-diagrams"/>
 
 ## Component Diagrams
 
-TBD
+![Component Diagram](source/component-diagram/component-diagram.png)
+
+[(source PlantUML code)](source/component-diagram.md)
+
 
 <a name="deployment-diagrams"/>
 
@@ -58,6 +64,7 @@ This isn't strictly a UML Deployment Diagram, but is similar:
 
 [(source PlantUML code)](source/deployment-like-diagram.md)
 
+
 <a name="gantt-charts"/>
 
 ## Gantt Charts
@@ -67,6 +74,7 @@ Example Gantt chart:
 ![Gantt Chart](source/gantt/gantt.png)
 
 [(source PlantUML code)](source/gantt.md)
+
 
 <a name="mindmap-diagram"/>
 
@@ -89,6 +97,7 @@ Here we create a Mind Map to track tasks, with visual tags for urgent and comple
 ![Mind Map of Tasks ](source/mindmap-tasks/mindmap-tasks.png)
 
 [(source PlantUML code)](source/mindmap-tasks.md)
+
 
 <a name="sequence-diagram"/>
 
@@ -123,6 +132,7 @@ Another example showing setting colours etc:
 [(source PlantUML code)](source/sequence-another-example.md)
 
 <a name="use-case-diagram"/>
+
 
 ## Use Case Diagram
 

@@ -39,3 +39,4 @@ legend
     <size:18>Key</size>
     |<#94de5e> Class |
 endlegend
+@enduml
