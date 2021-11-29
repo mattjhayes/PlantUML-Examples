@@ -8,17 +8,17 @@ mindmapDiagram {
     Margin 15
     BackGroundColor YellowGreen
     FontColor DarkSlateGrey
-    LineColor white
+    LineColor White
     LineThickness 1.0
     MaximumWidth 320
   }
   rootNode {
     Padding 15
     Margin 15
-    BackGroundColor DeepSkyBlue
+    BackGroundColor YellowGreen
     FontColor DarkSlateGrey
     FontSize 18
-    LineColor DodgerBlue
+    LineColor White
     LineThickness 1.0
   }
   leafNode {
@@ -58,19 +58,20 @@ legend
 |<back:SkyBlue><b>In Progress.</b></back>|
 |<back:LightSlateGrey><i>Completed     .</i></back>|
 |<back:OrangeRed><b>Urgent        .</b></back>|
-|<back:Gold><b>Delegated  .</b></back>|
+|<back:Gold><b>Delegated   .</b></back>|
+|<back:YellowGreen><b>Branch        .</b></back>|
 endlegend
 
 * Current Tasks
 
  * Example.Edu Bid <<u>>
-  * Review RFP document<<i>>
+  * Review RFP document <<i>>
   * Assist with writing response
   * Attend RFP workshop with customer
 
  * Example.Com Architecture
   * Write Draft Architecture Document <<i>>
-  * Discuss with Customer and get feedback<<u>>
+  * Discuss with Customer and get feedback <<u>>
   * Update based on Feedback
 
  * Example.Net Build
