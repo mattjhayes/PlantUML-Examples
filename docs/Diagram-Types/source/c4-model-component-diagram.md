@@ -1,3 +1,11 @@
+[<-Diagram Types](../diagram-types.md)
+
+# C4 Model Component Diagram
+
+![C4 Model Component Diagram](c4-model-component-diagram/c4-model-component-diagram.png)
+
+Source code:
+```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
 
@@ -29,3 +37,4 @@ Rel(basket_model, db_shop, "Reads and writes state & writes logs using", "JDBC")
 Rel(service, fulfil, "Retrieves listings and orders\nusing", "JSON/HTTPS")
 Rel(service, fulfil, "Sends message to place order using", "JSON/HTTPS")
 @enduml
+```

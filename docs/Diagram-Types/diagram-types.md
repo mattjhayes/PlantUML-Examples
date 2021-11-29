@@ -46,6 +46,12 @@ Note: auto-detect activity diagram type by lines that start with : and end with 
 
 [(source PlantUML code)](source/c4-model-container-diagram.md)
 
+### C4 Model Component Diagram
+
+![C4 Model Component Diagram](source/c4-model-component-diagram/c4-model-component-diagram.png)
+
+[(source PlantUML code)](source/c4-model-component-diagram.md)
+
 
 <a name="class-diagram"/>
 

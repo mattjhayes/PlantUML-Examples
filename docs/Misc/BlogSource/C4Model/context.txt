@@ -1,5 +1,5 @@
 @startuml
-!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
 ' caption Context Diagram for Horrendous Hats (HH) Website
 
@@ -12,11 +12,11 @@ System(fulfil, "Fulfilment System", "Fulfilment system that tracks inventory and
 
 System_Ext(payments, "Payment Gateway", "Provides payment service") 
 
-Rel(customer, site, "Orders hat\nusing")
-Rel(site, payments, "Redirects\npayment to")
-Rel(site, fulfil, "Sends\norder to")
-Rel(fulfil, site, "Lists hats\nfor sale")
-Rel(fulfil, customer, "Ships\nhat to")
-Rel(fulfil, customer, "Emails\ninvoice to")
+Rel(customer, site, "Orders hat using")
+Rel(site, payments, "Redirects payment to")
+Rel(site, fulfil, "Sends order to")
+Rel(fulfil, site, "Lists hats for sale")
+Rel(fulfil, customer, "Ships hat to")
+Rel(fulfil, customer, "Emails invoice to")
 
 @enduml

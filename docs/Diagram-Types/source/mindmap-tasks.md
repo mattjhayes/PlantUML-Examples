@@ -16,17 +16,17 @@ mindmapDiagram {
     Margin 15
     BackGroundColor YellowGreen
     FontColor DarkSlateGrey
-    LineColor white
+    LineColor White
     LineThickness 1.0
     MaximumWidth 320
   }
   rootNode {
     Padding 15
     Margin 15
-    BackGroundColor DeepSkyBlue
+    BackGroundColor YellowGreen
     FontColor DarkSlateGrey
     FontSize 18
-    LineColor DodgerBlue
+    LineColor White
     LineThickness 1.0
   }
   leafNode {
@@ -64,9 +64,10 @@ mindmapDiagram {
 legend
 |<back:LightGray><b>Not Started.</b></back>|
 |<back:SkyBlue><b>In Progress.</b></back>|
-|<back:LightSlateGrey><i>Completed    .</i></back>|
+|<back:LightSlateGrey><i>Completed     .</i></back>|
 |<back:OrangeRed><b>Urgent        .</b></back>|
-|<back:Gold><b>Delegated  .</b></back>|
+|<back:Gold><b>Delegated   .</b></back>|
+|<back:YellowGreen><b>Branch        .</b></back>|
 endlegend
 
 * Documentation

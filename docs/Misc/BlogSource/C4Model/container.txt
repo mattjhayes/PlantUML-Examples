@@ -1,11 +1,10 @@
 @startuml
-!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
 skinparam wrapWidth 200
 skinparam maxMessageSize 200
 
 LAYOUT_WITH_LEGEND()
-LAYOUT_TOP_DOWN
 
 Person_Ext(customer, "Customer", "A customer wanting to buy a horrendous hat")
 
@@ -34,7 +33,7 @@ Rel(shop, db_shop, "Reads and writes state & writes logs using", "JDBC")
 Rel(auth, db_user, "Reads and writes user data using", "JDBC")
 Rel(spa, payments, "Makes payment using", "JSON/HTTPS")
 
-Rel(shop, fulfil, "Retrieves listings\nusing", "JSON/HTTPS")
+Rel(shop, fulfil, "Retrieves listings using", "JSON/HTTPS")
 Rel(shop, fulfil, "Sends message to place order using", "JSON/HTTPS")
 
 @enduml
