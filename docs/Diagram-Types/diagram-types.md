@@ -2,12 +2,13 @@
 
 [<-Home](../../README.md)
 
-PlantUML auto-detects the diagram type based on the first unique item in the code
+PlantUML auto-detects the diagram type based on the first unique item in the code.
+See https://plantuml.com/commons#6dd346f9babe70c8 for diagram type examples that show what keywords or symbols trigger auto-detection of diagram type.
 
 ## Contents
 
 [Activity Diagram](#activity-diagram)<br>
-[C4 Model Diagrams](../Examples/README.md#c4-model)<br>
+[C4 Model Diagrams](#c4-diagram)<br>
 [Class Diagram](#class-diagram)<br>
 [Component Diagrams](#component-diagrams)<br>
 [Deployment Diagrams](#deployment-diagrams)<br>
@@ -27,6 +28,15 @@ PlantUML auto-detects the diagram type based on the first unique item in the cod
 [(source PlantUML code)](source/activity-diagram.md)
 
 Note: auto-detect activity diagram type by lines that start with : and end with ;
+
+
+<a name="c4-diagram"/>
+
+## C4 Model Diagrams
+
+![C4 Model Context Diagram](source/c4-model-context-diagram/c4-model-context-diagram.png)
+
+[(source PlantUML code)](source/c4-model-context-diagram.md)
 
 
 <a name="class-diagram"/>
