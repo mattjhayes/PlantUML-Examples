@@ -21,15 +21,15 @@ PlantUML auto-detects the diagram type based on the first unique item in the cod
 
 ## Activity Diagram
 
-TBD
-
 Auto detect activity diagram type by lines that start with : and end with ;
+
+![Activity Diagram](source/activity-diagram/activity-diagram.png)
+
+[(source PlantUML code)](source/activity-diagram.md)
 
 <a name="class-diagram"/>
 
 ## Class Diagram
-
-TBD
 
 Auto detect class diagram type by use of line type:
 * <|--
@@ -37,6 +37,10 @@ Auto detect class diagram type by use of line type:
 * o--
 * ..
 * --
+
+![Class Diagram](source/class-diagram/class-diagram.png)
+
+[(source PlantUML code)](source/class-diagram.md)
 
 <a name="component-diagrams"/>
 
